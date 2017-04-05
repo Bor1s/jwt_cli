@@ -35,7 +35,7 @@ module JwtCli
     private
 
     def email_valid?(email)
-      email.match?(URI::MailTo::EMAIL_REGEXP)
+      !!(email =~ URI::MailTo::EMAIL_REGEXP)
     end
   end
 end
