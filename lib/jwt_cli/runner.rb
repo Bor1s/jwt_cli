@@ -8,7 +8,12 @@ module JwtCli
       builder.add_user_id
       ask_for_email(builder)
       ask_for_additional_info(builder)
-      builder.build
+      payload = builder.build
+
+      token = JwtCli::Token.generate(payload)
+      Clipboard.copy(token)
+
+      say 'The JWT has been copied to your clipboard!'
     end
 
     default_task :start

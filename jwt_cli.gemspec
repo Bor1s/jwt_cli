@@ -36,4 +36,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry", '~> 0.10.3'
 
   spec.add_runtime_dependency     'thor', '~> 0.19.4'
+  spec.add_runtime_dependency     'jwt', '~> 1.5', '>= 1.5.4'
+  spec.add_runtime_dependency     'clipboard', '~> 1.1', '>= 1.1.1'
 end
