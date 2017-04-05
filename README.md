@@ -2,6 +2,10 @@
 
 A CLI for generating Json Web Tokens
 
+# TODO
+
+Add support for JWT encryption.
+
 ## Installation
 
 Add this line to your application's Gemfile:
