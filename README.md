@@ -20,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO
+Run executable `jwt_cli` and follow provided prompts.
+
 
 ## Development
 
