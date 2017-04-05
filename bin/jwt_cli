@@ -4,4 +4,4 @@ $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 require 'thor'
 require "jwt_cli"
 
-JwtCli::Input.start(ARGV)
+JwtCli::Runner.start
