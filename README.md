@@ -1,6 +1,10 @@
 # JwtCli
 
-A CLI for generating Json Web Tokens
+A CLI for generating Json Web Tokens.
+Running `jwt_cli` will guide you through a few prompt steps, generate a token and copy it to your clipboard.
+
+
+**NOTE**: to make copying to clipboard work make sure you have pbcopy (OS X) or xclip (debian/ubuntu) installed on your system.
 
 # TODO
 
